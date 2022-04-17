@@ -1,0 +1,15 @@
+<apex:page standardController="Account">
+<script>
+
+    window.onload = function(){
+    //choose the sobject and field as per your requirement
+    
+          if({!Account.Status__c})
+            {
+                alert('Warning')
+            }
+            
+
+    }
+</script>
+</apex:page>
